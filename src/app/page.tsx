@@ -1,3 +1,5 @@
+
+console.log("ENV TEST:", process.env.NEXT_PUBLIC_VERCEL_ENV);
 import Image from "next/image";
 
 export default function Home() {
